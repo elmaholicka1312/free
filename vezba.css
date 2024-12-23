@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.headerImage {
+	background: url(slike/a.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-shadow: 5px 5px 4px rgba(206, 89, 55, 0);
+	background-attachment: fixed;
+}
+.buttonS {
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#klasaS {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 50px;
+	width: 80px;
+}
